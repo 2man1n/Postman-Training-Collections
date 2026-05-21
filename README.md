@@ -3,14 +3,7 @@
 Репозиторий содержит учебную коллекции Postman, созданную в процессе изучения API‑тестирования:
 
 REST API Collection — базовые и продвинутые запросы, авторизация, тест‑скрипты
-
-
-    Structure
-/rest-api-collection
-    ├── Requests
-    ├── Tests
-    └── Environment
-     
+  
     Technologies
 Postman
 REST API
