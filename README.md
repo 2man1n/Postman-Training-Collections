@@ -1,19 +1,25 @@
-# Postman-Training-Collections
+# Postman REST API Tests
 
-Репозиторий содержит учебную коллекции Postman, созданную в процессе изучения API‑тестирования:
+## Что тестировалось
+API сервиса Olympus — тестирование основных endpoints.
 
-REST API Collection — базовые и продвинутые запросы, авторизация, тест‑скрипты
-  
-    Technologies
-Postman
-REST API
-Pre‑request Scripts
-Test Scripts
-Mock Servers
+## Покрытые методы
+- GET — получение данных
+- POST — создание записей
+- PUT/PATCH — обновление
+- DELETE — удаление
 
-    Learning Goals
-работа с REST
-авторизация (Bearer, Basic, API Keys)
-переменные и окружения
-pre‑request логика
-автоматизация API‑проверок
+## Как импортировать коллекцию
+1. Открой Postman
+2. Import → Upload Files
+3. Выбери файл `*.postman_collection.json`
+
+## Инструменты
+- Postman
+- REST API
+
+## Дополнительно реализовано
+- Получение токенов авторизации и автоматическое сохранение в переменные окружения
+- Pre-request скрипты для подготовки данных перед запросом
+- Post-response скрипты для автоматических проверок ответа
+- Mock-сервер для тестирования без реального бэкенда
